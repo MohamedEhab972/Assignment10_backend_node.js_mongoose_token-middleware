@@ -1,3 +1,4 @@
+import mongoose from "mongoose";
 import { noteModel } from "../../database/model/note.model.js";
 
 export const createNote = async (data, token) => {
